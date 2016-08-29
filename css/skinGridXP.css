@@ -1,0 +1,226 @@
+
+.junk { }
+.gridRowSelector
+{
+    background-color: #b3d7ff;
+    border-width: 1;
+    border-bottom-color: #d4d0c8;
+    border-style: solid;
+    border-top-color: white;
+    border-right-color: #d4d0c8;
+    text-align: center;
+    border-left-color: white;
+    vertical-align: middle;
+}
+.gridborder
+{
+    background-color: #0054e3;
+}
+.gridTitlebar
+{
+    padding: 6px;
+    font-weight: bold;
+    font-size: 12pt;
+    color: #ffffff;
+    line-height: 14pt;
+    font-family: Trebuchet MS,arial,verdana,sans-serif;
+    background-color: #0054e3;
+    background-image: url(../images/TaskBarBG.gif);
+    background-repeat: repeat-x;
+    line-height: 25px;
+}
+.gridCellLines
+{
+    background-color: #d4d0c8;
+}
+.gridHeader
+{
+    background-color: #b3d7ff;
+    border-width: 1px;
+    border-bottom-color: darkblue;
+    border-style: solid;
+    border-top-color: white;
+    border-right-color: darkblue;
+    border-left-color: white;
+    color: #0054e3;
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: Trebuchet MS,tahoma,arial,verdana,sans-serif;
+}
+A.gridHeader
+{
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+A.gridHeader:hover {
+   color: #5c7ed8;
+}
+.gridRowOff
+{
+    padding: 2px;
+    font-size: 10pt;
+    font-family: tahoma,arial,verdana,sans-serif;
+    background-color: #e8eff9;
+}
+A.gridRowOff:hover, A.gridRowOn:hover {
+    color: #5c7ed8;
+}
+.gridRowOn
+{
+    padding: 2px;
+    font-size: 10pt;
+    font-family: tahoma,arial,verdana,sans-serif;
+    background-color: #ffffff;
+}
+.gridSelectedRow
+{
+    padding: 2px;
+    font-size: 10pt;
+    font-family: tahoma,arial,verdana,sans-serif;
+    color: #000000;
+    background-color: #B0C4DE;
+}
+.gridRowHilite
+{
+    padding: 2px;
+    font-size: 10pt;
+    font-family: tahoma,arial,verdana,sans-serif;
+    color: #000000;
+    background-color: #ffffcc;
+}
+.gridRowNotSelectable
+{
+    padding: 2px;
+    font-size: 10pt;
+    font-family: tahoma,arial,verdana,sans-serif;
+    color: #d4d0c8;
+    background-color: #ffffff;
+    font-style: italic;
+}
+.gridSubtotal
+{
+    font-size: 10pt;
+    text-indent: 0px;
+    line-height: 10pt;
+    font-family: tahoma,arial,verdana,sans-serif;
+    background-color: #d6cbbd;
+}
+.gridTotal
+{
+    padding: 2px;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #ffffff;
+    line-height: 12pt;
+    font-family: Trebuchet MS,arial,verdana,sans-serif;
+    background-color: #3474d3;
+}
+.gridActionBar
+{
+    padding-top: 3px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #000000;
+    font-family: tahoma,arial,verdana,sans-serif;
+    background-color: #EEF3FF;
+}
+.gridActionButton
+{
+    font-size: 10pt;
+    font-family: arial,verdana,sans-serif;
+    border-width: 1;
+    border-style: solid;
+    border-top-color: white;
+    border-left-color: white;
+    border-bottom-color: gray;
+    border-right-color: gray;
+    background-color: #EEF3FF;
+}
+.gridActionButtonHover
+{
+    font-size: 10pt;
+    font-family: arial,verdana,sans-serif;
+    border-width: 1;
+    border-style: solid;
+    border-top-color: #000080;
+    border-left-color: #000080;
+    border-bottom-color: #000080;
+    border-right-color: #000080;
+    background-color: #B0C4DE;
+}
+.gridPager
+{
+    padding: 2px;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #0054e3;
+    line-height: 14pt;
+    font-family: Trebuchet MS,tahoma,arial,verdana,sans-serif;
+    background-color: #b3d7ff;
+}
+A.gridPager
+{
+    color: #0054e3;
+    text-decoration: underline;
+}
+A.gridPager:hover
+{
+    color: #fff2d5;
+}
+.gridPagerSelectedPage
+{
+    padding: 2px;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #0054e3;
+    line-height: 14pt;
+    font-family: Trebuchet MS,tahoma,arial,verdana,sans-serif;
+    background-color: #b3d7ff;
+}
+.gridPagerSummary
+{
+    padding: 2px;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #0054e3;
+    line-height: 14pt;
+    font-family: Trebuchet MS,tahoma,arial, verdana, sans-serif;
+    background-color: #b3d7ff;
+}
+.gridBlankLine
+{
+    border-right: white 0px;
+    border-top: white;
+    font-size: 10pt;
+    border-left: white 0px;
+    color: #ffffff;
+    line-height: 10pt;
+    border-bottom: white;
+    font-family: tahoma,arial,verdana,sans-serif;
+    background-color: #ffffff;
+}
+.gridButton
+{
+    border-right: #333333 thin solid;
+    border-top: #cccccc thin solid;
+    font-weight: bold;
+    font-size: 10pt;
+    border-left: #cccccc thin solid;
+    color: #ffffff;
+    padding-top: 3px;
+    border-bottom: #333333 thin solid;
+    font-family: tahoma,arial,verdana,sans-serif;
+    background-color: #0f0f4c;
+}
+.customStyle
+{
+    font-weight: bold;
+    padding-right: 4;
+    padding-left: 4;
+    font-size: 10pt;
+    font-family: tahoma,arial,verdana,sans-serif;
+    color: green;
+    background-color: #eeffff;
+}

@@ -1,0 +1,94 @@
+/*  Calendar header text  */
+.xpcalHeader {
+    padding-left: 3;
+    padding-right: 3;
+    text-align:center;
+    font-weight: bold;
+    font-size: 16pt;
+    color: #ffffff;
+    font-family: Trebuchet MS,arial,verdana,sans-serif;
+    background-color: #0054e3;
+	background-image: url(../images/TaskBarBG.gif);
+	background-repeat: repeat-x;
+}
+
+.xpcalCellLines
+{
+    background-color: #cccccc;
+}
+.xpcalBorder
+{
+    background-color: #0054e3;
+}
+.xpcalSeperator
+{
+    
+    height: 5;
+    background-image: url(../images/progressBar.gif);
+    background-repeat: repeat-x;
+}
+
+/*  Days of the week text  */
+.xpcalDayLabels {
+	background-color: #b3d7ff;
+	font-family: verdana,sans-serif;
+	font-size:   14pt;
+	color:       darkblue;
+	font-weight:  bold;
+	text-align: center;
+}
+A.xpcalDayLabels {
+    color:  #444444;
+}
+
+/*  Days of the month text and links */
+.xpcalCurrentDay, .xpcalWeekday, .xpcalWeekend, .xpcalEvent, .xpcalSelectedDay {
+        background-color: #ffffff;
+        font-family: verdana,sans-serif;
+        font-size:   8pt;
+        color:       #333333;
+        text-align: left;
+        height: 60;
+        width: 60;
+        border-width: 1;
+        border-style: solid;
+        border-top-color: #b3d7ff;
+        border-left-color: #b3d7ff;
+        border-bottom-color: #b3d7ff;
+        border-right-color: #b3d7ff;
+}
+
+/*  Calendar hilited day  */
+.xpcalCurrentDay {
+	background-color: #ffffcc;
+	font-weight:  bold;
+	color: #000000;
+}
+
+/*  Calendar selected day  */
+.xpcalSelectedDay {
+    background-color: #B0C4DE;
+    font-weight:  bold;
+    border-width: 1;
+    border-style: solid;
+    border-top-color: #000080;
+    border-left-color: #000080;
+    border-bottom-color: #000080;
+    border-right-color: #000080;
+}
+
+.xpcalWeekend {
+  background-color: #e8eff9;
+}
+
+.xpcalEvent {
+	font-weight:   bold;
+	color: #000000;
+	background-color: #FFFFD7;
+	text-decoration:  underline;
+}
+
+.xpcalNonselectableDay {
+  background-image: url(../images/_x.gif);
+  background-repeat: no-repeat;
+}

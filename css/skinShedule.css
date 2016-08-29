@@ -1,0 +1,79 @@
+
+/*  Schedule header text, use text-align to center or left align the text.  */
+.scheduleHeader {
+	background-color: #ffffff;
+	font-family: verdana,trebuchet,sans-serif;
+	font-size:   12pt;
+	color:       #000000;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+}
+
+/*  Use this style to set the color of the schedule's grid lines.  */
+.scheduleCellLines {
+    BACKGROUND-COLOR: #000000;
+}
+
+/*  Use this style to set the color of the schedule's outer border.  */
+.scheduleBorder {
+    BACKGROUND-COLOR: #000000;
+}
+
+/*  Use this style to set the attributes of the schedule's thin line that separates the header from the body.  */
+.scheduleSeperator {
+    BACKGROUND-COLOR: #000000;
+    height: 1;
+}
+
+/*  Use this style to set the attributes of the schedule's days of the week sub-header.  */
+.scheduleDayLabels {
+	background-color: #c0c0c0;
+	font-family: verdana,trebuchet,sans-serif;
+	font-size:   10pt;
+	color:       #000000;
+	font-weight:  bold;
+	text-align: left;
+	padding-left: 5px;
+}
+
+/*  Styles for the days of the schedule.  Set these all the same and then customize them each below. */
+.scheduleCurrentDay, .scheduleCurrentDayNumber, .scheduleWeekday, .scheduleWeekdayNumber, .scheduleWeekend, .scheduleWeekendNumber,
+.scheduleEvent, .scheduleEventImportant {
+	background-color: #ffffff;
+	font-family: verdana,trebuchet,sans-serif;
+	font-size:   8pt;
+	color:       #040404;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-left:5px;padding-right:5px;padding-bottom:2px;
+}
+
+/*  Style for current day, if it is displaying.  */
+.scheduleCurrentDay, .scheduleCurrentDayNumber {
+	color:       #000000;
+	background-color: lightyellow;
+}
+
+/*  Make each day so that it does not overflow its cell.  We do not recommended changing this style. */
+.scheduleCurrentDay td, .scheduleCurrentDayNumber td, .scheduleWeekday td, .scheduleWeekdayNumber td, .scheduleWeekend td,
+.scheduleWeekendNumber td, .scheduleEvent td, .scheduleEventImportant td {
+	overflow: hidden;
+}
+
+/*  Style for number of the day that displays at the top left of each cell.  */
+.scheduleWeekdayNumber, .scheduleWeekendNumber, .scheduleCurrentDayNumber {
+	font-weight:   bold;
+}
+
+/*  Style for an event.  */
+.scheduleEvent {
+	color: #000000;
+	background-color: #cdffcc;
+}
+
+/*  A customized style that can be used to differentiate important events.  */
+.scheduleEventImportant {
+	color: #ffeaaa;
+	background-color: #ff6600;
+}
