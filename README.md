@@ -46,16 +46,3 @@ There is also a Support section which has the below functionalities
 :: View bug list
 :: Send Feedback
 
-
-
-
-
-
-
-
-
-:: Entering, Editing and Viewing Individual and Organization Time Cards
-:: Resource Workload Dashboard
-:: Resource Availability Lookup
-:: Emailing Daily Status Report
-:: Managing skillset Repository
