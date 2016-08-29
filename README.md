@@ -3,7 +3,7 @@ Software Activities Management and Tracker
 
 Overview :
 ==========
-SaMTrack stands for Software Activities Management & Tracker . This is very similar to Microsoft Project  but a simplified version and with minimalisitic functionalities. Here we can set goals and milestones. To achieve these goals activities can be created. These activities can be broken down into tasks and several users can work on this task in a shared basis or independelty.
+SaMTrack stands for Software Activities Management & Tracker . This is very similar to Microsoft Project  but a simplified version and with important functionalities. Here we can set goals and milestones. To achieve these goals activities can be created. These activities can be broken down into tasks and several users can work on this task in a shared basis or independelty.
 
 The way SaMTrack is designed so that it is hierachial based. A manager/project manager can view and assign tasks/activities to his/her team. Even the roll up happens in a similar fashion.
 
