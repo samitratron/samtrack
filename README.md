@@ -1,6 +1,9 @@
 # samtrack
 Software Activities Management and Tracker
 
+![alt tag](https://github.com/samitratron/samtrack/blob/master/images/samtrack_launch_page.png)
+
+
 Overview :
 ==========
 SaMTrack stands for Software Activities Management & Tracker . This is very similar to Microsoft Project  but a simplified version and with important functionalities. Here we can set goals and milestones. To achieve these goals activities can be created. These activities can be broken down into tasks and several users can work on this task in a shared basis or independelty.
