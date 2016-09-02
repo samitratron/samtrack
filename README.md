@@ -17,6 +17,9 @@ Features :
 
 Feature Overview
 ================
+
+![alt tag](https://github.com/samitratron/samtrack/blob/master/images/samtrack_home_page.png)
+
 :: Adding a Project
 :: Defining / Editing and Viewing Project/Organization Goals for a project
 :: Viewing Milestones Against Project/Organization Goals
